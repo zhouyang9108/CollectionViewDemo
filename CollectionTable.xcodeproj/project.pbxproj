@@ -15,6 +15,7 @@
 		391934A01CE02DA900BA52EA /* CollectionTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919349F1CE02DA900BA52EA /* CollectionTableTests.swift */; };
 		391934AB1CE02DA900BA52EA /* CollectionTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391934AA1CE02DA900BA52EA /* CollectionTableUITests.swift */; };
 		391934B91CE03A7200BA52EA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391934B81CE03A7200BA52EA /* CollectionViewCell.swift */; };
+		391934BB1CE0780000BA52EA /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391934BA1CE0780000BA52EA /* CollectionHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		391934AA1CE02DA900BA52EA /* CollectionTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableUITests.swift; sourceTree = "<group>"; };
 		391934AC1CE02DA900BA52EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		391934B81CE03A7200BA52EA /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		391934BA1CE0780000BA52EA /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,7 @@
 		391934891CE02DA900BA52EA /* CollectionTable */ = {
 			isa = PBXGroup;
 			children = (
-				3919348A1CE02DA900BA52EA /* AppDelegate.swift */,
-				3919348C1CE02DA900BA52EA /* ViewController.swift */,
-				391934B81CE03A7200BA52EA /* CollectionViewCell.swift */,
-				3919348E1CE02DA900BA52EA /* Main.storyboard */,
-				391934911CE02DA900BA52EA /* Assets.xcassets */,
-				391934931CE02DA900BA52EA /* LaunchScreen.storyboard */,
-				391934961CE02DA900BA52EA /* Info.plist */,
+				391934BC1CE0781E00BA52EA /* CollectionView */,
 			);
 			path = CollectionTable;
 			sourceTree = "<group>";
@@ -126,6 +122,29 @@
 				391934AC1CE02DA900BA52EA /* Info.plist */,
 			);
 			path = CollectionTableUITests;
+			sourceTree = "<group>";
+		};
+		391934BC1CE0781E00BA52EA /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3919348C1CE02DA900BA52EA /* ViewController.swift */,
+				391934B81CE03A7200BA52EA /* CollectionViewCell.swift */,
+				391934BA1CE0780000BA52EA /* CollectionHeaderView.swift */,
+				391934BD1CE0783B00BA52EA /* Info */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		391934BD1CE0783B00BA52EA /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				3919348A1CE02DA900BA52EA /* AppDelegate.swift */,
+				3919348E1CE02DA900BA52EA /* Main.storyboard */,
+				391934911CE02DA900BA52EA /* Assets.xcassets */,
+				391934931CE02DA900BA52EA /* LaunchScreen.storyboard */,
+				391934961CE02DA900BA52EA /* Info.plist */,
+			);
+			name = Info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3919348D1CE02DA900BA52EA /* ViewController.swift in Sources */,
+				391934BB1CE0780000BA52EA /* CollectionHeaderView.swift in Sources */,
 				3919348B1CE02DA900BA52EA /* AppDelegate.swift in Sources */,
 				391934B91CE03A7200BA52EA /* CollectionViewCell.swift in Sources */,
 			);
